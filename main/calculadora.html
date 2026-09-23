@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de estrategia digital | Del Sur Studio</title>
+<meta name="description" content="Elige los servicios que necesita tu negocio en Estepona (web, marca, SEO local, publicidad y redes) y calcula tu plan al momento.">
+<link rel="canonical" href="https://TU-DOMINIO-AQUI.es/calculadora.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Calculadora de estrategia digital | Del Sur Studio">
+<meta property="og:description" content="Elige los servicios que necesita tu negocio en Estepona (web, marca, SEO local, publicidad y redes) y calcula tu plan al momento.">
+<meta property="og:url" content="https://TU-DOMINIO-AQUI.es/calculadora.html">
+<meta property="og:image" content="https://TU-DOMINIO-AQUI.es/img/muro-estrategia.jpg">
+<meta property="og:locale" content="es_ES">
+<meta name="theme-color" content="#0E1C2D">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=3">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://TU-DOMINIO-AQUI.es/index.html"}, {"@type": "ListItem", "position": 2, "name": "Calculadora", "item": "https://TU-DOMINIO-AQUI.es/calculadora.html"}]}</script>
+</head>
+<body class="has-calc-bar">
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<div class="topbar">
+  <div class="wrap">
+    <div class="topbar__contact">
+      <a class="topbar__mail" href="mailto:larabj.marketing@gmail.com">larabj.marketing@gmail.com</a>
+      <a href="tel:+34654943209">654 94 32 09</a>
+    </div>
+    <span class="topbar__note">Reunión inicial gratuita · Estepona y Costa del Sol</span>
+  </div>
+</div>
+
+<header class="header">
+  <div class="wrap">
+    <a class="header__logo" href="index.html" aria-label="Del Sur Studio, inicio"><img src="img/logo-oscuro.png" alt="Del Sur Studio, Estepona" width="520" height="232"></a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html#servicios">Servicios</a>
+      <a href="publicidad-estepona.html">Publicidad</a>
+      <a href="seo-local-estepona.html">SEO local</a>
+      <a href="marca-web-estepona.html">Marca y web</a>
+      <a href="index.html#casos">Casos</a>
+      <a href="calculadora.html" aria-current="page">Calculadora</a>
+      <a href="index.html#sobre-mi">Sobre mí</a>
+    </nav>
+    <a class="btn btn--primary btn--sm header__cta" href="index.html#contacto">Reservar reunión</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú"><span></span></button>
+  </div>
+</header>
+<nav class="mobile-nav" id="mobile-nav" aria-label="Menú móvil">
+  <a href="index.html">Inicio</a>
+  <a href="index.html#servicios">Servicios</a>
+  <a href="publicidad-estepona.html">Publicidad</a>
+  <a href="seo-local-estepona.html">SEO local</a>
+  <a href="marca-web-estepona.html">Marca y web</a>
+  <a href="index.html#casos">Casos</a>
+  <a href="calculadora.html" aria-current="page">Calculadora</a>
+  <a href="index.html#sobre-mi">Sobre mí</a>
+  <a class="btn btn--primary btn--block" href="index.html#contacto">Reservar reunión</a>
+</nav>
+
+
+<main id="main">
+<div class="wrap"><nav class="breadcrumb" aria-label="Ruta"><ol><li><a href="index.html">Inicio</a></li><li aria-current="page">Calculadora</li></ol></nav></div>
+
+<section class="page-hero" style="padding-bottom:40px">
+  <div class="wrap">
+    <div class="head" style="margin-bottom:0">
+      <span class="eyebrow">Calculadora</span>
+      <h1 class="h1">Calcula tu <em>estrategia</em></h1>
+      <p class="lead">Activa los servicios que necesitas y verás el total al momento. Son precios orientativos: los cerramos juntos en la reunión inicial.</p>
+    </div>
+  </div>
+</section>
+
+<section style="padding-bottom:var(--section)">
+  <div class="wrap calc">
+    <div>
+      <div class="presets" role="group" aria-label="Plantillas">
+        <span>Empieza por:</span>
+        <button class="filter" type="button" data-preset="nuevo" aria-pressed="false">Negocio nuevo</button>
+        <button class="filter" type="button" data-preset="web" aria-pressed="false">Ya tengo web</button>
+        <button class="filter" type="button" data-preset="publi" aria-pressed="false">Solo publicidad</button>
+        <button class="filter" type="button" data-preset="vaciar" aria-pressed="false">Vaciar</button>
+      </div>
+
+      <div class="svc-grid" id="svc-grid"><!-- Se rellena desde js/calculadora.js --></div>
+
+      <div class="svc svc--wide" style="margin-top:16px">
+        <h2 class="h4">Gestión de redes sociales</h2>
+        <p>Calendario, diseño y publicación en Instagram y Facebook. Elige cuántas publicaciones al mes.</p>
+        <div class="redes" id="redes" role="group" aria-label="Publicaciones al mes"></div>
+      </div>
+    </div>
+
+    <aside class="plan" id="plan" aria-live="polite">
+      <span class="tag" style="color:var(--gold)">Tu estrategia</span>
+      <div class="plan__lines" id="plan-lines"></div>
+      <p class="note" id="plan-empty">Activa algún servicio para ver tu plan.</p>
+      <p class="note note--auto" id="auto-med-note" hidden>Hemos añadido Medición porque las campañas la necesitan. Puedes quitarla si ya la tienes.</p>
+      <div class="plan__totals">
+        <div><span class="small">Pago único</span><span class="plan__total" id="once-total">0 €</span></div>
+        <div><span class="small">Cuota mensual</span><span class="plan__total" id="month-total">0 €</span></div>
+      </div>
+      <p class="note" id="first-year"></p>
+      <a class="btn btn--light btn--block" href="index.html#contacto" id="plan-book">Reservar reunión con esta estrategia</a>
+      <a class="btn btn--gold btn--block btn--sm" href="https://wa.me/34654943209" id="plan-wa" target="_blank" rel="noopener">Enviar por WhatsApp</a>
+      <p class="note">Precios sin IVA y orientativos hasta la reunión inicial. La inversión publicitaria de Google y Meta va aparte y la pagas tú directamente. Permanencia mínima de 3 meses en los servicios mensuales. Las cuentas de Google Ads, Analytics y tu ficha siempre están a tu nombre.</p>
+    </aside>
+  </div>
+</section>
+</main>
+
+<div class="calc-bar">
+  <div><span class="small" style="color:var(--on-dark-muted)">Tu plan</span><br><strong id="bar-total">0 €</strong></div>
+  <a class="btn btn--light btn--sm" href="#plan">Ver plan</a>
+</div>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="img/logo-claro.png" alt="Del Sur Studio, Estepona" width="520" height="232" loading="lazy">
+        <p>Estudio de estrategia digital 360 con sede en Estepona.</p>
+      </div>
+      <div>
+        <span class="footer__title">Servicios</span>
+        <ul>
+          <li><a href="index.html#servicios">Pack de lanzamiento</a></li>
+          <li><a href="publicidad-estepona.html">Publicidad online y exterior</a></li>
+          <li><a href="seo-local-estepona.html">SEO local y ficha de Google</a></li>
+          <li><a href="marca-web-estepona.html">Marca y web</a></li>
+          <li><a href="calculadora.html">Calculadora</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer__title">Legal y privacidad</span>
+        <ul>
+          <li><a href="legal.html#aviso-legal">Aviso legal</a></li>
+          <li><a href="legal.html#privacidad">Política de privacidad</a></li>
+          <li><a href="legal.html#cookies">Política de cookies</a></li>
+        </ul>
+      </div>
+      <div>
+        <span class="footer__title">Contacto</span>
+        <ul>
+          <li>Estepona, Costa del Sol Occidental</li>
+          <li><a href="tel:+34654943209">654 94 32 09</a></li>
+          <li><a href="mailto:larabj.marketing@gmail.com">larabj.marketing@gmail.com</a></li>
+          <li><a href="https://wa.me/34654943209" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <nav aria-label="Páginas de servicio">
+        <a href="publicidad-estepona.html">Estudio de publicidad en Estepona</a>
+        <a href="seo-local-estepona.html">SEO local en Estepona</a>
+        <a href="marca-web-estepona.html">Marca y web en Estepona</a>
+      </nav>
+      <span>© <span data-year>2026</span> Del Sur Studio. Todos los derechos reservados.</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/34654943209?text=Hola%20Lara%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20Del%20Sur%20Studio." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+  <span>¿Hablamos?</span>
+</a>
+
+<script src="js/main.js?v=3"></script>
+<script src="js/calculadora.js?v=2"></script>
+</body>
+</html>
